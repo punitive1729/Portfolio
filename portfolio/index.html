@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio Website</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href='./font-awesome.css'>
+    <link rel="stylesheet" href='./style.css'>
+     
+</head>
+<body>
+
+    <!--PageLoader Start-->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--PageLoader Ends-->
+    
+
+    <!--Background Circles Start-->
+    <div class="bg-circles" id="particles-js">
+    </div>
+    <!--Background Circles Ends-->
+    
+
+    <!--Overlay Start-->
+    <div class="overlay"></div>
+    <!--Overlay Ends-->
+
+    <!-- Main Start-->
+    <div class="main hidden">
+        
+        <!-- Header Start-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">Home</a></li>
+                                <li><a href="#about-me" class="nav-item link-item">About Me</a></li>
+                                <li><a href="#recent-works" class="nav-item link-item">Projects</a></li>
+                                <li><a href="#contact-me" class="nav-item link-item">Contact Me</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Header Ends-->
+
+        <!--Home Section Starts-->
+        <section class="home-section align-items-center" id="home">
+            <div class="container"> 
+                <div class="row align-items-center">
+                    <div class="home-text">
+                        <p>Hello, I'm</p>
+                        <h1><span class="intro"><span class="span">P</span>unit <span class="span">O</span>jha</span></h1>
+                        <h2>Interested In <span class="span span1"></span></h2>
+                        <a href="#about-me" class="button link-item">About Me</a>
+                        <a href="#recent-works" class="button link-item">Projects</a>
+                        
+
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box ">
+                            <img src="./resss/profile_pic.jpg" alt="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Home Section Ends-->
+
+        <!--About Section Starts-->
+        <section class="about-section sec-padding" id="about-me">
+            <div class="container"> 
+                <div class="row">
+                    <div class="section-title">
+                        <h2><span class="span">A</span>bout <span class="span">M</span>e</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="./resss/profile_pic.jpg " alt="about img">
+                        </div>
+                    </div>
+                    
+
+                    <div class="about-text">
+                       <p>I am a Final Year <span class="span span-bold">Electrical Engineering </span>Undergraduate Student at <span class="span span-bold">IIT Bhubaneswar.</span>  I am a self-driven, quick starter, passionate programmer with a curious mind who loves solving complex and challenging real-world problems. I am an enthusiastic<span class="span span-bold"> Competitive Programmer</span> having my presenece on many popular Competitive Programming platforms. I have previously worked in the field of applied<span class="span span-bold"> Machine Learning, Deep Learning</span>. I am passionate about <span class="span span-bold"> Artificical Intelligence</span> both from theoretical as well as practical perspectives. Apart from this I have proficiency in <span class="span span-bold">Data Structures and Algorithms</span> I am currently exploring the field of <span class="span span-bold">Web Developement</span>. I am currently looking for roles where I can apply my knowledge to solve problems related to <span class="span span-bold">Business, Research or Finance</span></p>
+                        <h2><span class="span">S</span>kills</h2>
+                        <div class="skills">
+                            <div class="skill-item button">C</div>
+                            <div class="skill-item button">C++</div>
+                            <div class="skill-item button">Python</div>
+                            <div class="skill-item button">HTML5</div>
+                            <div class="skill-item button">CSS3</div>
+                            <div class="skill-item button">JavaScript</div>
+                            <div class="skill-item button">Matlab</div>
+                            <div class="skill-item button">Octave</div>
+                            
+                            <div class="skill-item button">Scikit-Learn</div>
+                            <div class="skill-item button">Keras</div>
+                            <div class="skill-item button">Tensorflow 2.0</div>
+                            <div class="skill-item button">OpenCV</div>
+                            <div class="skill-item button">NLTK</div>
+                            <div class="skill-item button">mySQL</div>
+                            <div class="skill-item button">Numpy</div>
+                            <div class="skill-item button">Pandas</div>
+                            <div class="skill-item button">Seaborn</div>
+                            <div class="skill-item button">Matplotlib</div>
+                        </div>
+
+                        <h2><span class="span">P</span>roblem <span class="span">S</span>olving</h2>
+                        <div class="social-linkss">
+                            <a href="https://www.codechef.com/users/punitive_1729/" target="_blank" class="icon"><img src="./cc.png" alt=""></a>
+                            <a href="https://www.hackerrank.com/ojha1111PK/" target="_blank" class="icon"><img src="./hck.png" alt=""></a>
+                            <a href="https://leetcode.com/ojha1111pk/" target="_blank" class="icon"><img src="./lc.png" alt=""></a>
+                            
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item active" 
+                            data-target="#education"><span class="span">E</span>ducation</button>
+                            <button type="button" class="tab-item" 
+                            data-target="#experience"><span class="span">E</span>xperience</button>
+                        </div>
+
+                        <!--Education Starts-->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018-2022</span>
+                                    <h3>Bachelor of Technology - <span class="span">IIT, Bhubaneswar</span></h3>
+                                    <p>Electrical Engineering</p>
+                                    
+                                </div>
+
+                                <div class="timeline-item">
+                                    <span class="date">2015-2017</span>
+                                    <h3>Intermediate - <span class="span">City Montessori School RDSO, Lucknow</span></h3>
+                                    <p>Basic Schooling in PCM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Education Ends-->
+                        
+                        <!--Experience Starts-->
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">May 2021-July 2021</span>
+                                    <h3>Summer Research Intern - <span class="span">Tata Reseach Design Developement Center, Pune, India</span></h3>
+                                    <ul class="general-info">
+                                        <li>Developed a <span class="span-bold">Real Time Human Computer Interaction System</span> using Hand gestures.</li>
+                                        
+                                        <li>Created a Custom Dataset of static as well as dynamic gestures as per the use case</li>
+
+                                        <li>Trained and tested variants of Neural Networks for improved real time performance</li>
+                                        
+                                        <li>Developed a <span class="span-bold">light weight, low latency, deployable system</span> in TfLite that detects gestures in real time</li>
+                                        <li>Tested model’s performance on video feed through Laptop’s webcam as well as videos recorded using mobile phones</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Experience Ends-->
+
+                        <a href="https://drive.google.com/file/d/1NooFsXkmcl5UnB1hUnOZOXD_xr7BBTYD/view?usp=share_link" target="_blank" class="button">Download CV</a>
+                        <a href="#contact-me" class="button link-item">Contact Me</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About Section Ends-->
+
+        <!--Portfolio Section Starts-->
+        <section class="portfolio-section sec-padding" id="recent-works">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2><span class="span">P</span>rojects</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--Portfolio Project-0 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/black hole.jpg" alt="project 0 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Geodesics For Merger of Black Holes
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>Currently trying to understand the Mathematics behind <span class="span-bold">Geodesic equations</span> and <span class="span-bold">Gravitational Lenses</span></li>
+                                    <li>Currently implementing a Research Paper to detect <span class="span-bold">Gravitation Lenses</span> in real Sky Images using <span class="span-bold">Convolutional Neural Networks</span></li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>August, 2021 - Present</span></li>
+                                    <li>Technologies - <span> Python, Keras, Tensorflow, Computer Vision, Simulation, Mathematics, Physics</span></li>
+                                    <li>Domain - <span>Deep Learning, Physics, Mathematics</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Project-0 Ends-->
+
+                    <!--Portfolio Project-1 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/mona_lisa_1.jpg" alt="project 1 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Image Regeneration Using Genetic Algorithms
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>Implemented <span class="span-bold">Genetic Algorithm</span> to regenerate images using various <span class="span-bold">geometrical shapes</span></li>
+                                    <li>Implemented various techniques like <span class="span-bold">Cross-Breeding</span> and <span class="span-bold">Random Mutation</span> for better regeration results</li>
+                                    <li>Tested the algorithm on images of varying complexity from simple Logos of companies to complex images of famous paintings</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>August, 2020</span></li>
+                                    <li>Technologies - <span> Python, OpenCV</span></li>
+                                    <li>Domain - <span>Artificical Intelligence</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Project-1 Ends-->
+
+                    <!--Portfolio Project-2 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/rainy.jpg" alt="project 2 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Removing Rain From Images Using Deep Learning
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>The project is an <span class="span-bold">Image-to-Image Translation</span> method to remove <span class="span-bold">noise(rain)</span> from the images</li>
+                                    <li>Implemented <span class="span-bold">Convolution-Deconvolution</span> Neural Network using <span class="span-bold">Keras</span> to remove rain from <span class="span-bold">RGB</span> images</li>
+                                    <li>Trained the model on <span class="span-bold">JRDR</span> datset with heavy augmentations performed on dataset using <span class="span-bold">Augmentor</span> library</li>
+                                    <li>Tried <span class="span-bold">ADAM, SGD</span> optimizers as well as optimized the hyperparameters to get better results</li>
+                                    <li>Used various inbuit libraries like <span class="span-bold">ImageEnhancer</span> to enhance the quality of image further</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>July, 2020</span></li>
+                                    <li>Technologies - <span> Python, Numpy, Matplotlib, OpenCV, Keras, Tensorflow, Augmentor </span></li>
+                                    <li>Domain - <span>Deep Learning, Computer Vision</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Project-2 Ends-->
+
+                    <!--Portfolio Project-3 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/crowd.jpg" alt="project 3 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Crowd Counting Using Gaussian Density Maps
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>The project is aimed to estimate crowd counts in densely crowded images using <span class="span-bold">Gaussian Density Maps</span></li>
+                                    <li>Trained the model on <span class="span-bold">Shanghai-Tech Datasets</span> with various standard augmentations</li>
+                                    <li>Used <span class="span-bold">ADAM</span> optimizer to get faster convergence.  Trained a <span class="span-bold">CNN Model</span> to get the density maps from the input images</li>
+                                    <li>Implemented ideas from some of the research papers along with some custom modifications to get better results</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>May, 2020</span></li>
+                                    <li>Technologies - <span> Python, Numpy, Matplotlib, OpenCV, Keras, Tensorflow, Augmentor</span></li>
+                                    <li>Domain - <span>Deep Learning, Computer Vision</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Project-3 Ends-->
+
+                    <!--Portfolio Project-4 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/txc.jpg" alt="project 4 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Toxic Comment Classification Challenge
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>The project is aimed at <span class="span-bold">Multi-class sentiment classification</span>(a single comment can have multiple sentiments)</li>
+                                    <li>Used the <span class="span-bold">Wikipedia Comments</span> Dataset and processed it using <span class="span-bold">NLTK, Word-Lemmatizer, SnowballStemmer</span></li>
+                                    <li>Implemented a <span class="span-bold">Bi-directional LSTM</span> network followed with <span class="span-bold">1D Convolution Layer</span> to get improved results</li>
+                                    <li>Used pre-trained <span class="span-bold">Glove-800B</span> word vector embeddings. The model attained a score of <span class="span-bold">0.9784/1.0</span> on Test Set.</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>April, 2020 - May, 2020</span></li>
+                                    <li>Technologies - <span> Python, Numpy, Matplotlib, NLTK, Keras, Tensorflow, Glove800B, Word2Vec, WordCloud </span></li>
+                                    <li>Domain - <span>Deep Learning, Natural Language Processing</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Portfolio Project-4 Ends-->
+
+                    <!--Portfolio Project-5 Starts-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="./resss/rossmann_img.JPG" alt="project 5 thumb">
+                        </div>
+                        <h3 class="portfolio-item-title">Rossmann Store Sales Prediction Challenge
+                        </h3>
+                        <button type="button" class="button view-project-button">Details</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <ul>
+                                    <li>The project is aimed at predicting the sales of next two months given the data of sales of previous two years</li>
+                                    <li>Performed <span class="span-bold">Data Analysis</span> on the dataset using various tools like <span class="span-bold">Matplotlib, Seaborn, Pandas</span></li>
+                                    <li>Performed <span class="span-bold">Feature analysis</span> using <span class="span-bold">graphs, correlation-matrix</span>. Performed <span class="span-bold">Feature Engineering</span> to get better results</li>
+                                    <li>Used <span class="span-bold">Principal Component Analysis</span> to filter out the dominant features.</li>
+                                    <li>Trained and tested <span class="span-bold">Random Forest Regression, XGBoost</span> algorithms.</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Timeline - <span>January, 2020</span></li>
+                                    <li>Technologies - <span> Python, Numpy, Matplotlib, Seaborn, Pandas, Scikit-Learn, XGBoost</span></li>
+                                    <li>Domain - <span>Machine Learning, Data Analysis</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Project-5 Ends-->
+
+                </div>
+            </div>
+        </section>
+        <!--Portfolio Section Ends-->
+
+        <!--Contact Me Starts-->
+        <section class="contact-section sec-padding" id="contact-me">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2><span class="span">C</span>ontact <span class="span">M</span>e</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="contact-form">
+                       <form action="https://formsubmit.co/ojha1111pk@gmail.com" method="POST">
+                           
+                            <input type="text" name="name" placeholder="Name" class="input-control input-group" required>
+                               
+                            <input type="text" name="email" placeholder="E-mail" class="input-control input-group" required>
+                                
+                            <input type="text" name="subject" placeholder="Subject" class="input-control input-group" required>
+                                
+                            <textarea name="message" placeholder="Message" class="input-control input-group" required></textarea>
+                                
+                            <div class="input-group submit-button">
+                                <button type="submit" class=" submitt button">
+                                    Send Message
+                                </button>
+                            </div>
+                            
+                            <input type="hidden" name="_next" value="https://pko-portfolio.netlify.app/#contact-me">
+                            <input type="hidden" name="_captcha" value="false">
+
+                       </form>
+                    </div>
+
+
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <a href="mailto:ako13@iitbbs.ac.in" style="color:black">ako13@iitbbs.ac.in</a>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone No</h3>
+                            <p>+91 7017931237</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Social Media</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/punit.kumarojha.7/" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/punitive_1729/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://in.linkedin.com/in/pko" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact Me Ends-->
+
+    </div>
+    <!-- Main Ends-->
+
+    <!--Portfolio Item Details PopUp Starts-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="button pp-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="pp-thumbnail">
+                        <img src="./resized/mona_lisa_1.jpg" alt="pp-thumbnail">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Item Details PopUp Ends-->
+    
+
+    <script src="./script.js"></script>
+
+    <!-- ParticlesJS-->
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    
+</body>
+</html>
